@@ -443,7 +443,13 @@
       <div class="inputs">
       <input type="email" placeholder="E-mail" class="online-input">
       </div>
-      <button type="submit" class="online-btn">Подписаться</button>
+      <button type="submit" class="online-btn">
+            <span> Подписаться
+              <svg class="online-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#online-btn"></use>
+              </svg>
+            </span>
+      </button>
     </footer>
       <div class="buckdrop is-hidden" data-modal>
         <div class="modal">
@@ -510,7 +516,7 @@
                 <svg class="check-icon" width="11" height="8">
                   <use href="./images/symbol-defs.svg#check"></use>
                 </svg>
-              </span> Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+              </span> Соглашаюсь с рассылкой и принимаю <a class="form-link" href="">Условия договора</a></label>
             <button type="submit" class="modal-btn">Отправить</button>
           </form>
         </div>
